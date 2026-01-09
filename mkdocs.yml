@@ -1,1 +1,26 @@
-site_name: My Docs
+site_name: Meshcore Wielkopolska
+site_description: Lokalna wiki Wielkopolskiej Społeczności MeshCore
+site_url: https://chybadapi.github.io/awesome-meshcore-wlkp/
+
+theme:
+  name: material
+  language: pl
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Start: index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+
+plugins:
+  - search
