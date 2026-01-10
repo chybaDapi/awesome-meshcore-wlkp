@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Witaj w Wielkopolskiej Społeczności MeshCore
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Na tej stronie znajdziesz podstawowe infromacje dotyczące Wielkopolskiej sieci MeshCore, takie jak używane kanały, 
+informacje o botach, czy lokalnych narzędziach.
 
-## Commands
+Pamiętaj, że celem tej strony nie jest wprowadzenie Cię do MeshCore, jednak na stronie "[Przydatne linki](tools.md)" 
+znajdziesz odnośniki do miejsc, które pomogą Ci przyswoić podstawy działania sieci.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+W prawym górnym rogu każej strony, tuż obok tytułu, znajdziesz ikonę edycji, a na górnej belce także link do GitHuba.
+Jeśli masz pomysł na nową treść, chcesz coś zmienić lub poprawić, nie wahaj się wprowadzić zmianę i utworzyć Pull Request.
+Rozwijajmy tę stronę razem.

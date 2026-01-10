@@ -2,6 +2,9 @@ site_name: Meshcore Wielkopolska
 site_description: Lokalna wiki Wielkopolskiej Społeczności MeshCore
 site_url: https://chybadapi.github.io/awesome-meshcore-wlkp/
 
+repo_url: https://github.com/chybaDapi/awesome-meshcore-wlkp
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: pl
@@ -12,15 +15,30 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.action.edit
 
 nav:
   - Start: index.md
+  - Presety: presets.md
+  - Kanały: channels.md
+  - Boty: bots.md
+  - Repeatery: repeaters.md
+  - Narzędzia: tools.md
+  - Przydatne linki: resources.md
 
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - attr_list
   - toc:
       permalink: true
 
 plugins:
-  - search
+  - search:
+      lang: pl
