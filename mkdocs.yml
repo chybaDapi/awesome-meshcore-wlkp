@@ -23,7 +23,7 @@ nav:
   - Kanały: channels.md
   - Boty: bots.md
   - Repeatery: repeaters.md
-  - Narzędzia: tools.md
+  - Lokalne narzędzia: tools.md
   - Przydatne linki: resources.md
 
 markdown_extensions:

@@ -4,6 +4,7 @@
 
 ## Narzędzia
 * [Wardrive](/awesome-meshcore-wlkp/tools/#wardrive) - Aplikacja pozwalająca monitorować pokrycie naszego obszaru działania siecią MeshCore.
+* [MeshCore Analyzer](https://analyzer.letsmesh.net/) - Narzędzie do analizy pakietów MeshCore. Umożliwia śledzenie pakietów i wiadomości z dowolnego miejsca na świecie.
 * [Mapa urządzeń](https://map.meshcore.dev/) - Oficjalna, globalna mapa urządzeń MeshCore. Jeśli zarządzasz własnym repeaterem, koniecznie dodaj go do tej mapy.
 * [Flasher](https://flasher.meshcore.co.uk/) - Oficjalne narzędzie do flashowania urządzeń MeshCore.
 * [Nocne wydania Firmware](https://files.brazio.org/meshcore/nightly/companion/) - Oficjalne, nocne wydania firmware. Mogą być niestabilne! Instaluj tylko jeśli wiesz co robisz!
