@@ -62,14 +62,16 @@ Poniższa konfiguracja wpływa na to, jakie regiony Twój repeater słyszy i prz
 
 Konfiguracji możesz dokonać na dwa sposoby: zdalnie poprzez aplikację MeshCore oraz poprzez konsolę dostępną na stronie https://flasher.meshcore.co.uk/ po podłączeniu repeatera kablem USB do komputera.
 W obu przypadkach konfiguracja wygląda tak samo. Poniżej instrukcja zdalnej konfiguracji poprzez aplikację mobilną:
+
 1. Zaloguj się do repeatera poprzez aplikację i przejdź do zakładki "Command Line".
 2. Wpisz trzy komendy: `region put #wlkp`, `region allowf #wlkp` i `region save`. Uwaga! Początkowy hasztag i wielkość znaków mają znaczenie!
-3. Gotowe.
+
+![Screenshot](img/regions_rep_cli.png)
 
 Jeśli chcesz wycofać zmiany:
+
 1. Zaloguj się do repeatera poprzez aplikację i przejdź do zakładki "Command Line".
 2. Wpisz komendy: `region remove #wlkp` i `region save`.
-3. Gotowe.
 
 !!! Info "Info"
 
@@ -86,15 +88,16 @@ Poniższa zmiana wpływa jedynie na wiadomości wysyłane przez Ciebie na kanał
 3. W prawym górnym rogu wybierz "+", dodaj region `#wlkp` i zapisz "ptaszkiem" w prawym górnym rogu. Hasztag i wielkość znaków mają znaczenie!
 4. Po zapisaniu zmian aplikacja przeniesie Cię do ekranu "Select Region". Wybierz `#wlkp` klikając w niego. 
 5. Po powrocie do kanału pojawia się na górze potwierdzenie: "Only repeaters allowing region will forward."
-6. Gotowe.
+
+![Screenshot](img/regions_client_channels.png)
 
 Od teraz wiadomości wysłane przez Ciebie na kanał `#wlkp` nie będą przekazywane dalej przez repeatery bez skonfigurowanego regionu `#wlkp`.
 
 Jeśli chcesz wycofać zmianę tymczasowo (możesz wysłać pojedynczą wiadomość bez zdefiniowanego regionu) lub na stałe, wykonaj poniższe kroki:
+
 1. Otwórz kanał `#wlkp`.
 2. Z menu w prawym górnym rogu wybierz "Set Region Scope"
 3. W prawym górnym rogu z menu oznaczonego trzema kropkami wybierz "Clear Scope".
-4. Gotowe. 
 
 Teraz wszystkie Twoje wiadomości wysłane na kanał `wlkp` będą przekazywane dalej przez wszystkie repeatery w zasięgu.
 
