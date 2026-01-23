@@ -73,7 +73,7 @@ Jeśli chcesz wycofać zmiany:
 
 !!! Info "Info"
 
-    #wlkp w komendach powyżej odnosi się do nazwy regionu. Nie jest to powiązane z nazwą kanału.
+    \#wlkp w komendach powyżej odnosi się do nazwy regionu. Nie jest to powiązane z nazwą kanału.
     
     
 #### Konfiguracja regionu dla wiadomości
