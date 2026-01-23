@@ -28,20 +28,20 @@ Od wersji 1.10 dodane zostało wsparcie dla regionalizacji. Wszystkie repeatery 
 
 ## Przykładowe konfiguracje repeaterów, regiony wiadomości oraz statusy
  Regiony repeatera                               | Region wiadomości | Status           
-|-------------------------------------------------|-------------------|------------------|
-| ✅ *                                             | brak regionu      | 🟢 przekazana    |
-| ✅ *                                             | #poznan           | 🟠 zignorowana   |
-| ✅ *<br>❌ #poznan                                | brak regionu      | 🟢 przekazana    |
-| ✅ *<br>❌ #poznan                                | #poznan           | 🟠 zignorowana   |
-| ✅ *<br>✅ #poznan                                | brak regionu      | 🟢 przekazana    |
-| ✅ *<br>✅ #poznan                                | #poznan           | 🟢 przekazana    |
-| ❌ *<br>✅ #poznan                                | brak regionu      | 🟠 zignorowana   |
-| ❌ *<br>✅ #poznan                                | #poznan           | 🟢 przekazana    |
-| ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | brak regionu      | 🟢 przekazana    |
-| ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #poznan           | 🟢 przekazana    |
-| ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #leszno           | 🟢 przekazana    |
-| ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #gniezno          | 🟠 zignorowana   |
-| ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #kalisz           | 🟠 zignorowana   |
+-------------------------------------------------|-------------------|------------------
+ ✅ *                                             | brak regionu      | 🟢 przekazana    
+ ✅ *                                             | #poznan           | 🟠 zignorowana   
+ ✅ *<br>❌ #poznan                                | brak regionu      | 🟢 przekazana    
+ ✅ *<br>❌ #poznan                                | #poznan           | 🟠 zignorowana   
+ ✅ *<br>✅ #poznan                                | brak regionu      | 🟢 przekazana    
+ ✅ *<br>✅ #poznan                                | #poznan           | 🟢 przekazana    
+ ❌ *<br>✅ #poznan                                | brak regionu      | 🟠 zignorowana   
+ ❌ *<br>✅ #poznan                                | #poznan           | 🟢 przekazana    
+ ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | brak regionu      | 🟢 przekazana    
+ ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #poznan           | 🟢 przekazana    
+ ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #leszno           | 🟢 przekazana    
+ ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #gniezno          | 🟠 zignorowana   
+ ✅ *<br>✅ #poznan<br>✅ #leszno<br>❌ #gniezno     | #kalisz           | 🟠 zignorowana   
 
 Legenda:<br>
 ✅ - przekazywanie wiadomości w danym regionie włączone <br>
