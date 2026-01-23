@@ -26,4 +26,4 @@ jobs:
           pip install mkdocs-material
 
       - name: Deploy
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force --cname mcwlkp.pl

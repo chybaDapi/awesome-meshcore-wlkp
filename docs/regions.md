@@ -1,11 +1,11 @@
-# Regionalizacja - jak to działa?
+## Regionalizacja - jak to działa?
 
-## Jak to działa na poziomie aplikacji?
+### Jak to działa na poziomie aplikacji?
 Regionalizacja aplikowana jest tylko do wiadomości wysyłanych na kanałach i NIE wpływa na prywatne wiadomości (DM) wysyłane bezpośrednio do innych użytkowników oraz adverty.
 
 Aplikacja umożliwia definiowanie regionów, do których wysyłane są wiadomości. Można skonfigurować wiele regionów, jednak dana wiadomość może być wysłana jednorazowo tylko do jednego regionu. Wyboru regionu dokonuje się na każdym kanale osobno, a wybór można w każdej chwili zmienić. Wiadomości bez zdefiniowanego regionu przyjmują domyślnie jako region symbol wieloznaczny, czyli `*`.
 
-## Jak to działa na poziomie repeaterów?
+### Jak to działa na poziomie repeaterów?
 Oprogramowanie repeaterów do wersji 1.10 ignoruje regiony i przekazuje wszystkie wiadomości dalej.
 
 Od wersji 1.10 dodane zostało wsparcie dla regionalizacji. Wszystkie repeatery począwszy od tej wersji otrzymują domyślną konfigurację pozwalającą na przekazywanie wiadomości z symbolem wieloznacznym (`*`), czyli wiadomości bez zdefiniowanego regionu. Z poziomu linii komend (poprzez aplikację lub przeglądarkę) administrator może dodawać regiony oraz definiować, które regiony mają być przekazywane dalej, a które nie.
@@ -26,7 +26,7 @@ Od wersji 1.10 dodane zostało wsparcie dla regionalizacji. Wszystkie repeatery 
 
 
 
-## Przykładowe konfiguracje repeaterów, regiony wiadomości oraz statusy
+### Przykładowe konfiguracje repeaterów, regiony wiadomości oraz statusy
  Regiony repeatera                               | Region wiadomości | Status           
 -------------------------------------------------|-------------------|------------------
  ✅ *                                             | brak regionu      | 🟢 przekazana    
@@ -48,13 +48,13 @@ Legenda:<br>
 ❌ - przekazywanie wiadomości w danym regionie wyłączone
 
 
-# Testowe ustawienia dla Wielkopolskiej Sieci
+## Testowe ustawienia dla Wielkopolskiej Sieci
 W ramach testów, komunikacja na kanale `#wlkp` odbywa się z uwzględnieniem regionu `#wlkp`. Poniżej znajdziesz opis co musisz zrobić, 
 aby dołączyć do testów oraz co się stanie, jak nie podejmiesz żadnej akcji.
 
-## Jak dołączyć do testów?
+### Jak dołączyć do testów?
 
-### Konfiguracja repeatera
+#### Konfiguracja repeatera
 Jeśli jesteś operatorem repeatera, skonfiguruj na nim region `#wlkp`. To proste, zajmuje mniej niż minutę, a jednocześnie nie wprowadza żadnych ograniczeń. 
 Twój repeater po zmianach nadal będzie przekazywać te same wiadomości co wcześniej, a DODATKOWO wiadomości kierowane do regionu #wlkp.
 
@@ -76,7 +76,7 @@ Jeśli chcesz wycofać zmiany:
     #wlkp w komendach powyżej odnosi się do nazwy regionu. Nie jest to powiązane z nazwą kanału.
     
     
-### Konfiguracja regionu dla wiadomości
+#### Konfiguracja regionu dla wiadomości
 Ta zmiana pozwoli Ci zdecydować, gdzie chcesz, żeby były widoczne Twoje wiadomości. W ramach testów, komunikacja na kanale `#wlkp` odbywa się w ramach regionu `#wlkp`.
 Poniższa zmiana nie wpływa na żadne inne kanały, prywatne wiadomości oraz adverty. Nie wpływa też na wiadomości odbierane przez Ciebie na kanale `#wlkp`. 
 Poniższa zmiana wpływa jedynie na wiadomości wysyłane przez Ciebie na kanał `#wlkp`.
@@ -99,7 +99,7 @@ Jeśli chcesz wycofać zmianę tymczasowo (możesz wysłać pojedynczą wiadomo�
 Teraz wszystkie Twoje wiadomości wysłane na kanał `wlkp` będą przekazywane dalej przez wszystkie repeatery w zasięgu.
 
 
-### Jeśli nie zrobisz nic...
+#### Jeśli nie zrobisz nic...
 Jeśli nie zrobisz nic, Twoje wiadomości nadal będą widoczne dla wszystkich, jednak mogą "wyciekać" poza nasz region, a w dobrych warunkach również poza granice kraju. 
 Jeśli jesteś operatorem repeatera, nie będzie on przekazywał dalej wiadomości z kanału `#wlkp` wysyłanych ze zdefiniowanym regionem `#wlkp`. Jeśli nie jesteś w zasięgu innego repeatera
 ze zdefiniowanym regionem, część wiadomości na kanale `#wlkp` może do Ciebie nie docierać. 
