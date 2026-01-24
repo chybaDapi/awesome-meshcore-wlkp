@@ -106,3 +106,7 @@ Teraz wszystkie Twoje wiadomości wysłane na kanał `wlkp` będą przekazywane 
 Jeśli nie zrobisz nic, Twoje wiadomości nadal będą widoczne dla wszystkich, jednak mogą "wyciekać" poza nasz region, a w dobrych warunkach również poza granice kraju. 
 Jeśli jesteś operatorem repeatera, nie będzie on przekazywał dalej wiadomości z kanału `#wlkp` wysyłanych ze zdefiniowanym regionem `#wlkp`. Jeśli nie jesteś w zasięgu innego repeatera
 ze zdefiniowanym regionem, część wiadomości na kanale `#wlkp` może do Ciebie nie docierać. 
+
+
+## Znane problemy
+1. Wiadomości z ustawionym regionem nie są widoczne w analizatorze pakietów Let's Mesh. [Dyskusja na forum Let's Mesh](https://forum.letsmesh.net/t/messages-with-region-not-wisible-on-channels-page/237/2)
