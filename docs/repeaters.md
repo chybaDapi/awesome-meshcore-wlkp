@@ -18,6 +18,13 @@ jako alternatywna sieć kryzysowa, odporna na braki prądu.
 
 
 ## Hasło gościa
-Konfigurując repeater masz możliwość ustawienia dwóch haseł: administratora oraz gościa. Pierwsze z nich powinno być silne
+Konfigurując repeater, masz możliwość ustawienia dwóch haseł: administratora oraz gościa. Pierwsze z nich powinno być silne
 i znane tylko Tobie. Mocno sugerowane jest, aby jako hasło gościa, zgodnie z praktykami stosowanymi w innych częściach 
 kraju, należy ustawić `hello`.
+
+
+## Regiony
+W Wielkopolskiej Sieci MeshCore aktywnie wykorzystujemy regiony. Aby sieć mogła działać poprawnie, jako operator repeatera powinieneś skonfigurować na swoim urządzeniu obsługę regionu `#wlkp`.
+
+1. W aplikacji MeshCore, po zalogowaniu do repeatera, z dolnego menu wybierz pozycję "Command Line".
+2. Wpisz kolejno trzy komendy, każdorazowo zatwierdzając je enterem: `region put #wlkp`, `region allowf #wlkp` i `region save`. Uwaga! Początkowy hasztag i wielkość znaków mają znaczenie!

@@ -12,6 +12,30 @@ Rozwijajmy tę stronę razem.
 
 ---
 
-Jesteś nowy w Wielkopolsce?
+<div class="grid cards" markdown>
 
-[Sprawdź od czego zacząć](/quickstart){ .md-button .md-button--primary }
+-   :material-new-box:{ .lg .middle } __Nowy w Wielkopolsce?__
+
+    ---
+
+    [Sprawdź od czego zacząć](/quickstart){ .md-button .md-button--primary }
+
+-   :material-repeat:{ .lg .middle } __Masz własny repeater?__
+
+    ---
+
+    [Sprawdź wskazówki ustawień](/repeaters/){ .md-button }
+
+-   :material-tools:{ .lg .middle } __Chcesz wnieść do sieci więcej?__
+
+    ---
+
+    [Sprawdź lokalne narzędzia](/tools/){ .md-button }
+
+-   :simple-readme:{ .lg .middle } __Chcesz wiedzieć więcej?__
+
+    ---
+
+    [Sprawdź przydatne linki](/resources/){ .md-button }
+
+</div>

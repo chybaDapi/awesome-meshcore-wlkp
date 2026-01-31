@@ -1,7 +1,9 @@
 # Jak zacząć?
 
 ## Companion
+
 Jeśli dołączasz jako posiadacz urządzenia typu companion:
+
 1. Upewnij się, że ustawiony preset odpowiada używanemu w Wielkopolsce - EU/UK Narrow ([zobacz szczegóły](/presets)).
 2. Dołącz do kanałów używanych w Wielkopolsce ([lista kanałów](/channels)).
 3. Ustaw region `#wlkp` dla kanału `#wlkp` ([zobacz instrukcję](/regions/#konfiguracja-regionu-dla-wiadomosci)).
@@ -41,7 +43,9 @@ Jeśli dołączasz jako posiadacz urządzenia typu companion:
 
 
 ## Repeater
+
 Jeśli jesteś właścicielem repeatera:
+
 1. Upewnij się, że ustawiony preset odpowiada używanemu w Wielkopolsce - EU/UK Narrow ([zobacz szczegóły](/presets)).
 2. Zsynchronizuj czas (i pamiętaj, by robić to każdorazowo po odłączeniu zasilania): po zalogowaniu do repeatera przejdź do ustawień (`settings`), a następnie wybierz `Sync Clock`.
 3. Dodaj do repeatera region `#wlkpl` ([zobacz instrukcję](/regions/#konfiguracja-repeatera)).
