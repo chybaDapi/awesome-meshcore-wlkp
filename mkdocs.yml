@@ -20,6 +20,7 @@ theme:
 
 nav:
   - Start: index.md
+  - Szybki start: quickstart.md
   - Presety: presets.md
   - Kanały: channels.md
   - Boty: bots.md

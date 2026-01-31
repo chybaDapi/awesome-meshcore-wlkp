@@ -9,3 +9,9 @@ znajdziesz odnośniki do miejsc, które pomogą Ci przyswoić podstawy działani
 W prawym górnym rogu każej strony, tuż obok tytułu, znajdziesz ikonę edycji, a na górnej belce także link do GitHuba.
 Jeśli masz pomysł na nową treść, chcesz coś zmienić lub poprawić, nie wahaj się wprowadzić zmianę i utworzyć Pull Request.
 Rozwijajmy tę stronę razem.
+
+---
+
+Jesteś nowy w Wielkopolsce?
+
+[Sprawdź od czego zacząć](/quickstart){ .md-button .md-button--primary }
