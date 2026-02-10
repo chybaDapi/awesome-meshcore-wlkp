@@ -26,7 +26,6 @@ nav:
   - Boty: bots.md
   - Repeatery: repeaters.md
   - Regionalizacja: regions.md
-  - Lokalne narzędzia: tools.md
   - Przydatne linki: resources.md
 
 markdown_extensions:

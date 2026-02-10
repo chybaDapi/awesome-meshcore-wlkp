@@ -18,24 +18,24 @@ Rozwijajmy tę stronę razem.
 
     ---
 
-    [Sprawdź od czego zacząć](/quickstart){ .md-button .md-button--primary }
+    [Przeczytaj od czego zacząć](/quickstart){ .md-button .md-button--primary }
 
 -   :material-repeat:{ .lg .middle } __Masz własny repeater?__
 
     ---
 
-    [Sprawdź wskazówki ustawień](/repeaters/){ .md-button }
+    [Poznaj wskazówki ustawień](/repeaters/){ .md-button }
 
 -   :material-tools:{ .lg .middle } __Chcesz wnieść do sieci więcej?__
 
     ---
 
-    [Sprawdź lokalne narzędzia](/tools/){ .md-button }
+    [Mapuj sieć appką MeshMapper](/resources/#narzedzia){ .md-button }
 
 -   :simple-readme:{ .lg .middle } __Chcesz wiedzieć więcej?__
 
     ---
 
-    [Sprawdź przydatne linki](/resources/){ .md-button }
+    [Sprawdź linki i narzędzia](/resources/){ .md-button }
 
 </div>
