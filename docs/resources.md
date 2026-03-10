@@ -5,7 +5,7 @@
 ## Narzędzia
 - [MeshMapper](https://poz.meshmapper.net/) - Aplikacja pozwalająca mapować pokrycie naszego obszaru siecią MeshCore poprzez wardriving.
     * [Aplikacja MeshMapper na androida](https://play.google.com/store/apps/details?id=net.meshmapper.app&hl=pl)
-    * [Aplikacja MeshMapper na iOS (beta)](https://testflight.apple.com/join/nd3Rrkrb)
+    * [Aplikacja MeshMapper na iOS](https://apps.apple.com/us/app/meshmapper/id6758073991)
 - [MeshCore Analyzer](https://analyzer.letsmesh.net/) - Narzędzie do analizy pakietów MeshCore. Umożliwia śledzenie pakietów i wiadomości z dowolnego miejsca na świecie.
 - [Mapa urządzeń](https://map.meshcore.dev/) - Oficjalna, globalna mapa urządzeń MeshCore. Jeśli zarządzasz własnym repeaterem, koniecznie dodaj go do tej mapy.
 - [Flasher](https://flasher.meshcore.co.uk/) - Oficjalne narzędzie do flashowania urządzeń MeshCore.

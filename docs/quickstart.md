@@ -6,7 +6,7 @@ Jeśli dołączasz jako posiadacz urządzenia typu companion:
 
 1. Upewnij się, że ustawiony preset odpowiada używanemu w Wielkopolsce - EU/UK Narrow ([zobacz szczegóły](/presets)).
 2. Dołącz do kanałów używanych w Wielkopolsce ([lista kanałów](/channels)).
-3. Ustaw region `#wlkp` dla kanału `#wlkp` ([zobacz instrukcję](/regions/#konfiguracja-regionu-dla-wiadomosci)).
+3. Ustaw region `wlkp` dla kanału `#wlkp` ([zobacz instrukcję](/regions/#konfiguracja-regionu-dla-wiadomosci)).
 
 <details><summary>Szczegółowa instrukcja krok po kroku</summary>
     <ol>
@@ -32,10 +32,10 @@ Jeśli dołączasz jako posiadacz urządzenia typu companion:
         <li>
             Ustawianie regionu:
             <ol>
-               <li>Otwórz kanał, dla którego chcesz ustawić region, np. #wlkp.</li>
+               <li>Otwórz kanał, dla którego chcesz ustawić region, np. wlkp.</li>
                <li>Otwórz menu, klikając ikonę trzech kropek w prawym górnym rogu i wybierz opcję "Set Region Scope".</li>
-               <li>W prawym górnym rogu wybierz "+", dodaj region `#wlkp` i zapisz "ptaszkiem" w prawym górnym rogu. Hasztag i wielkość znaków mają znaczenie!</li>
-               <li>Po zapisaniu zmian aplikacja przeniesie Cię do ekranu "Select Region". Wybierz `#wlkp` klikając w niego.</li>
+               <li>W prawym górnym rogu wybierz "+", dodaj region `wlkp` i zapisz "ptaszkiem" w prawym górnym rogu. Hasztag i wielkość znaków mają znaczenie!</li>
+               <li>Po zapisaniu zmian aplikacja przeniesie Cię do ekranu "Select Region". Wybierz `wlkp` klikając w niego.</li>
             </ol>
         </li>
     </ol>
@@ -48,7 +48,7 @@ Jeśli jesteś właścicielem repeatera:
 
 1. Upewnij się, że ustawiony preset odpowiada używanemu w Wielkopolsce - EU/UK Narrow ([zobacz szczegóły](/presets)).
 2. Zsynchronizuj czas (i pamiętaj, by robić to każdorazowo po odłączeniu zasilania): po zalogowaniu do repeatera przejdź do ustawień (`settings`), a następnie wybierz `Sync Clock`.
-3. Dodaj do repeatera region `#wlkpl` ([zobacz instrukcję](/regions/#konfiguracja-repeatera)).
+3. Dodaj do repeatera region `wlkpl` ([zobacz instrukcję](/regions/#konfiguracja-repeatera)).
 4. *(opcjonalnie)* Ustaw dane właściciela repeatera: po zalogowaniu do repeatera przejdź do ustawień (`settings`), a następnie wybierz `Owner Info`.
 
 
@@ -75,8 +75,11 @@ Jeśli jesteś właścicielem repeatera:
         <li>
             Dodawanie regionu:
             <ol>
-               <li>Po zalogowaniu do repeatera z dolnego menu wybierz pozycję "Command Line".</li>
-               <li>Wpisz kolejno trzy komendy, każdorazowo zatwierdzając je enterem: `region put #wlkp`, `region allowf #wlkp` i `region save`. Uwaga! Początkowy hasztag i wielkość znaków mają znaczenie!</li>
+               <li>1. W aplikacji MeshCore, po zalogowaniu do repeatera, z dolnego menu wybierz pozycję "Settings".</li>
+                <li>Znajdź pozycję "Manage Regions", a następnie w prawym górnym roku wybierz ikonę "+".</li>
+                <li>Dodaj region "wlkp" i zatwierdź "ptaszkiem". Uwaga! Wielkość liter MA znaczenie!</li>
+                <li>Przy nowo utworzonym regionie kliknij trzy kropeczki i wybierz opcję "Allow Flood".</li>
+                <li>Zapisz zmiany klikając "ptaszka" w prawym górnym rogu.</li>
             </ol>
         </li>
         <li>
@@ -89,3 +92,11 @@ Jeśli jesteś właścicielem repeatera:
         </li>
     </ol>
 </details>
+
+
+
+## Boty
+
+Jeśli jesteś właścicielem Bota:
+
+1. Upewnij się, że wysyłane przez niego wiadomości są ograniczone do regionu `wlkp`: podłącz companiona wykorzystywanego przez bota do komputera, wejdź na https://app.meshcore.nz/ i skonfiguruj region `wlkp` dla kanałów podobnie, jak w przypadku companionów ([zobacz instrukcję](/regions/#konfiguracja-regionu-dla-wiadomosci)).

@@ -26,5 +26,8 @@ kraju, należy ustawić `hello`.
 ## Regiony
 W Wielkopolskiej Sieci MeshCore aktywnie wykorzystujemy regiony. Aby sieć mogła działać poprawnie, jako operator repeatera powinieneś skonfigurować na swoim urządzeniu obsługę regionu `#wlkp`.
 
-1. W aplikacji MeshCore, po zalogowaniu do repeatera, z dolnego menu wybierz pozycję "Command Line".
-2. Wpisz kolejno trzy komendy, każdorazowo zatwierdzając je enterem: `region put #wlkp`, `region allowf #wlkp` i `region save`. Uwaga! Początkowy hasztag i wielkość znaków mają znaczenie!
+1. W aplikacji MeshCore, po zalogowaniu do repeatera, z dolnego menu wybierz pozycję "Settings".
+2. Znajdź pozycję "Manage Regions", a następnie w prawym górnym roku wybierz ikonę "+".
+3. Dodaj region "wlkp" i zatwierdź "ptaszkiem". Uwaga! Wielkość liter MA znaczenie!
+4. Przy nowo utworzonym regionie kliknij trzy kropeczki i wybierz opcję "Allow Flood".
+5. Zapisz zmiany klikając "ptaszka" w prawym górnym rogu.
