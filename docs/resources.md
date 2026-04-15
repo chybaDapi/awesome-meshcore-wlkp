@@ -13,4 +13,4 @@
 
 ## Wiedza
 - [LoRa MeshCore](https://lorameshcore.pl/) - Zawiera wszystkie niezbędne informacje dotyczące m.in. korzystania z sieci oraz budowy własnych urządzeń.
-- [divers.net.pl](https://diver.net.pl/meshcore) - Kolejna rozbudowana baza wiedzy podejmująca liczne zagadnienia dotyczące teorii, jak i praktyki.
+- [diver.net.pl](https://diver.net.pl/meshcore) - Kolejna rozbudowana baza wiedzy podejmująca liczne zagadnienia dotyczące teorii, jak i praktyki.
