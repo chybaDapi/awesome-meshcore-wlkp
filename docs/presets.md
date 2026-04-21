@@ -1,4 +1,4 @@
-W Wielkopolskiej Sieci MeshCore wykorzystujemy ustawienia ogólnopolskie (preset EU/UK Narrow).
+W Wielkopolskiej Sieci MeshCore wykorzystujemy ustawienia ogólnopolskie (preset EU/UK Narrow, Switzerland).
 
 Nazwa                 | Wartość
 --------------------- | ---------------

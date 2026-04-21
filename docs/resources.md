@@ -10,7 +10,8 @@
 - [Mapa urządzeń](https://map.meshcore.dev/) - Oficjalna, globalna mapa urządzeń MeshCore. Jeśli zarządzasz własnym repeaterem, koniecznie dodaj go do tej mapy.
 - [Flasher](https://flasher.meshcore.co.uk/) - Oficjalne narzędzie do flashowania urządzeń MeshCore.
 - [Nocne wydania Firmware](https://files.brazio.org/meshcore/nightly/) - Oficjalne, nocne wydania firmware. Mogą być niestabilne! Instaluj tylko jeśli wiesz co robisz!
+- [Testowe i historyczne wydania aplikacji Meshcore](https://files.liamcottle.net/MeshCore/) - Oficjalne, testowe i hsitoryczne wydania aplikacji meshCore. Mogą być niestabilne! Instaluj tylko jeśli wiesz co robisz!
 
 ## Wiedza
 - [LoRa MeshCore](https://lorameshcore.pl/) - Zawiera wszystkie niezbędne informacje dotyczące m.in. korzystania z sieci oraz budowy własnych urządzeń.
-- [divers.net.pl](https://diver.net.pl/meshcore) - Kolejna rozbudowana baza wiedzy podejmująca liczne zagadnienia dotyczące teorii, jak i praktyki.
+- [diver.net.pl](https://diver.net.pl/meshcore) - Kolejna rozbudowana baza wiedzy podejmująca liczne zagadnienia dotyczące teorii, jak i praktyki.

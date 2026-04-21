@@ -22,10 +22,8 @@ nav:
   - Start: index.md
   - Szybki start: quickstart.md
   - Presety: presets.md
-  - Kanały: channels.md
-  - Boty: bots.md
+  - Kanały i regiony: channels.md
   - Repeatery: repeaters.md
-  - Regionalizacja: regions.md
   - Przydatne linki: resources.md
 
 markdown_extensions:
