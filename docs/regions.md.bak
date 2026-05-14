@@ -59,7 +59,7 @@ Twój repeater po zmianach nadal będzie przekazywać te same wiadomości co wcz
 
 Poniższa konfiguracja wpływa na to, jakie regiony Twój repeater słyszy i przekazuje dalej. Nie wpływa na wiadomości bez regionów. Nie wpływa na ustawienia kanałów.
 
-Konfiguracji możesz dokonać na dwa sposoby: zdalnie poprzez aplikację MeshCore oraz poprzez konsolę dostępną na stronie https://flasher.meshcore.co.uk/ po podłączeniu repeatera kablem USB do komputera.
+Konfiguracji możesz dokonać na dwa sposoby: zdalnie poprzez aplikację MeshCore oraz poprzez konsolę dostępną na stronie https://flasher.meshcore.io/ po podłączeniu repeatera kablem USB do komputera.
 
 Poniżej instrukcja zdalnej konfiguracji poprzez aplikację mobilną:
 1. Po zalogowaniu do repeatera, z dolnego menu wybierz pozycję "Settings".
