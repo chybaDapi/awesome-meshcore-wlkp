@@ -1,0 +1,57 @@
+:root {
+  --mcwlkp-hero-bg: linear-gradient(135deg, rgba(13, 148, 136, 0.18), rgba(245, 158, 11, 0.14));
+  --mcwlkp-hero-border: rgba(13, 148, 136, 0.22);
+}
+
+.md-typeset .hero {
+  padding: 2rem 1.5rem;
+  border: 1px solid var(--mcwlkp-hero-border);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.18), transparent 35%),
+    radial-gradient(circle at bottom left, rgba(13, 148, 136, 0.14), transparent 30%),
+    var(--mcwlkp-hero-bg);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset .hero h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+}
+
+.md-typeset .hero .hero-lead {
+  max-width: 72ch;
+  font-size: 1.05rem;
+  opacity: 0.92;
+}
+
+.md-typeset .hero .hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.md-typeset .hero .hero-badges span {
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > .card {
+  border-radius: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 0.75rem 1.75rem rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset table th {
+  white-space: nowrap;
+}
+
+.md-typeset .tight-list li {
+  margin-bottom: 0.35rem;
+}
